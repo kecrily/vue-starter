@@ -1,12 +1,12 @@
 {
   "name": "vue-starter",
-  "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@7.3.0",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
-    "lint": "eslint ."
+    "lint": "eslint . --cache"
   },
   "dependencies": {
     "vue": "^3.2.37",
@@ -15,19 +15,19 @@
   "devDependencies": {
     "@iconify-json/carbon": "^1.1.5",
     "@kecrily/eslint-config": "^0.1.7",
-    "@unocss/preset-icons": "^0.38.2",
-    "@unocss/reset": "^0.38.2",
-    "@vitejs/plugin-vue": "^2.3.3",
-    "eslint": "^8.17.0",
-    "typescript": "^4.7.3",
-    "unocss": "^0.38.2",
-    "unplugin-auto-import": "^0.8.7",
-    "unplugin-vue-components": "^0.19.6",
-    "vite": "^2.9.12",
-    "vite-plugin-pages": "^0.23.0",
+    "@unocss/preset-icons": "^0.39.3",
+    "@unocss/reset": "^0.39.3",
+    "@vitejs/plugin-vue": "^3.0.0-beta.0",
+    "eslint": "^8.18.0",
+    "typescript": "^4.7.4",
+    "unocss": "^0.39.3",
+    "unplugin-auto-import": "^0.9.1",
+    "unplugin-vue-components": "^0.19.9",
+    "vite": "^3.0.0-beta.1",
+    "vite-plugin-pages": "^0.24.2",
     "vite-plugin-vue-layouts": "^0.6.0",
     "vite-tsconfig-paths": "^3.5.0",
-    "vue-tsc": "^0.37.3"
+    "vue-tsc": "^0.38.1"
   },
   "eslintConfig": {
     "extends": "@kecrily"
